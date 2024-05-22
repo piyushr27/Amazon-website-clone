@@ -1,0 +1,274 @@
+* {
+    margin : 0px;
+    padding : 0px;
+}
+
+body {
+    background-color: rgb(195, 192, 192);
+    height: 1750px;
+    color : white;
+}
+
+p {
+    display : inline;
+}
+
+#searchbox {
+    padding : 0px;
+    background-color: beige;
+    height : 40px;
+    width : 550px;
+    border-radius: 5px;
+    display : flex;
+    align-items: center;
+}
+
+#navbar {
+    background-color: rgb(13, 13, 35);
+    padding : 10px 20px 10px 20px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#dda {
+    height : 20px;
+    width : 5%;
+    background-image: url(drop-down-arrow-icon.png);
+    background-size: 30px;
+    background-color: beige;
+}
+
+#ribbon {
+    background-color : rgb(53, 53, 90);
+    padding-right : 30px;
+    padding-left : 30px;
+    height : 40px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#shop {
+    justify-self: flex-end;
+    align-self : center;
+}
+
+#firstcontentribbon {
+    background-color: rgb(30, 30, 73);
+    width : 40vw;
+    height : 300px;
+}
+
+#giftstext {
+    position : relative;
+    top : 75px;
+    left : 200px;
+    font-size: 35px;
+    font-family :'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+#zero {
+    height : 300px;
+    width : 60vw;
+    background-image: url(electronics1.jpg);
+    background-size : contain;
+}
+
+#contentrow {
+    display : flex;
+    z-index : 1;
+}
+
+#overlaybox {
+    position : relative;
+    bottom : 2.5vw;
+    left : 15vw;
+    height : 25px;
+    width : 1000px;
+    text-align: right;
+    background-color: white;
+    color : black;
+    z-index : 2;
+}
+
+#panels {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contentboxouter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom : 20px;
+    margin-right : 20px;
+    padding : 20px;
+}
+
+#oneouter {
+    height :50vh;
+    width : 20vw;
+    background-color : white;
+    color : black;
+}
+
+#oneinner {
+    height :45vh;
+    width : 20vw;
+    background-image : url(home-appliances.jpg);
+    background-size : cover;
+}
+
+#twoouter {
+    height :50vh;
+    width : 20vw;
+    background-color : white;
+    color : black;
+}
+
+#twoinner {
+    height :45vh;
+    width : 20vw;
+    background-image : url(beauty-products.jpg);
+    background-size : cover;
+}
+
+#threeouter {
+    height :50vh;
+    width : 20vw;
+    background-color : white;
+    color : black;
+}
+
+#threeinner {
+    height :45vh;
+    width : 20vw;
+    background-image : url(furniture.jpg);
+    background-size : cover;
+}
+
+#fourouter {
+    height :50vh;
+    width : 20vw;
+    background-color : white;
+    color : black;
+}
+
+#fourinner {
+    height :45vh;
+    width : 20vw;
+    background-image : url(electronics2.jpg);
+    background-size : cover;
+}
+
+#fiveouter {
+    height :50vh;
+    width : 20vw;
+    background-color : white;
+    color : black;
+}
+
+#fiveinner {
+    height :45vh;
+    width : 20vw;
+    background-image : url(cosmetic-products.jpg);
+    background-size : cover;
+}
+
+#sixouter {
+    height :50vh;
+    width : 20vw;
+    background-color : white;
+    color : black;
+}
+
+#sixinner {
+    height :45vh;
+    width : 20vw;
+    background-image : url(pets.jpg);
+    background-size : cover;
+}
+
+#sevenouter {
+    height :50vh;
+    width : 20vw;
+    background-color : white;
+    color : black;
+}
+
+#seveninner {
+    height :45vh;
+    width : 20vw;
+    background-image : url(toys.jpg);
+    background-size : cover;
+}
+
+#eightouter {
+    height :50vh;
+    width : 20vw;
+    background-color : white;
+    color : black;
+}
+
+#eightinner {
+    height :45vh;
+    width : 20vw;
+    background-image : url(fashion.jpg);
+    background-size : cover;
+}
+
+#backtotop{
+    margin : 0px;
+    height : 35px;
+    padding-top : 10px;
+    text-align: center;
+    background-color: rgb(53, 53, 90);
+}
+
+/* #aboutus {
+    background-color: blueviolet;
+    height : 20vh;
+} */
+
+#aboutus {
+    background-color : rgb(30, 30, 73);
+    height : 50vh;
+    display : flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.aboutusdivs {
+    text-align: justify;
+    padding : 20px;
+    /* border : 2px solid black; */
+    width : 10vw;
+    height : 25vh;
+    line-height: 25px;
+    background-color: rgb(30, 30, 73);
+}
+
+#endlogo {
+    height : 15vh;
+    background-color: rgb(30, 30, 73);
+    display : flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom : 20px;
+    border-top : 3px solid white;
+}
+
+#amazonlogo {
+    height : 49px;
+    width : 161px;
+    background-color: rgb(30, 30, 73);
+    background-image: url(amazon-logo-white.png);
+    background-size: contain;
+}
